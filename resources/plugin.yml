@@ -1,0 +1,40 @@
+name: ArkChunk
+version: 1.0.0
+description: Plugin puissant de gestion des chunks pour Paper 1.21.10+
+author: Arklandia Studios
+url: https://arklandia.com
+main: com.arklandia.arkchunk.ArkChunk
+api-version: "1.21"
+
+commands:
+  arkchunk:
+    description: Commande principale du plugin ArkChunk
+    usage: /arkchunk <subcommand> [args]
+    aliases: [ack, chunk]
+    permission: arkchunk.admin
+
+permissions:
+  arkchunk.admin:
+    description: Permission pour accéder à toutes les commandes ArkChunk
+    default: op
+  arkchunk.preload:
+    description: Permission pour précharger les chunks
+    default: op
+  arkchunk.monitor:
+    description: Permission pour surveiller les chunks
+    default: op
+  arkchunk.delete:
+    description: Permission pour supprimer les chunks
+    default: op
+  arkchunk.reset:
+    description: Permission pour réinitialiser les chunks
+    default: op
+  arkchunk.unload:
+    description: Permission pour décharger les chunks
+    default: op
+  arkchunk.reload:
+    description: Permission pour recharger les chunks
+    default: op
+  arkchunk.info:
+    description: Permission pour voir les informations des chunks
+    default: op
